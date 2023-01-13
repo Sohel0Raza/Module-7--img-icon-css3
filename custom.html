@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom</title>
+    <style>
+        :root{
+            --primary-color:red;
+            --border:2px solid green;
+        }
+        h1{
+            background-color: var(--primary-color);
+            width: calc(100% - 300px);
+            height: 100px;
+        }
+        .box{
+            color: var(--primary-color);
+        }
+
+        #box2{
+            color: var(--primary-color);
+            border: var(--border);
+          
+        }
+    </style>
+</head>
+<body>
+    <h1>Custom</h1>
+    <div class="box">
+        <h3>Box 1</h3>
+    </div>
+    <div class="box" id="box2">
+        <h3>Box 2</h3>
+    </div>
+    <div class="box">
+        <h3>Box 3</h3>
+    </div>
+</body>
+</html>
